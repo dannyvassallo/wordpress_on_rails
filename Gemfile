@@ -10,6 +10,9 @@ gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'camaleon_cms'
 gem 'el_finder'
+gem 'rails_db'
+gem 'axlsx_rails'
+gem 'figaro'
 
 group :production do
   gem 'pg'
