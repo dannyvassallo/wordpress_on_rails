@@ -1,6 +1,13 @@
 #A New Portfolio Page
+An attempt at a very Wordpress-y experience in Ruby on Rails 4.
 
-Setup:
+####Technologies
+
+• Rails 4
+• Camaleon
+• RailsDB
+
+####Initial Setup:
 
 ```
 bundle install
@@ -9,12 +16,12 @@ rake db:migrate
 rails s
 ```
 
-Admin Login:
+####Admin Login:
 
 1) `rails s`
 2) Visit: `http://localhost:3000/admin/login`
 
-Rails DB (phpMyAdmin style clone):
+####Rails DB (phpMyAdmin style clone):
 
 1) Fill out `application.yml` based on `application.yml.example`
 2) `rails s`
