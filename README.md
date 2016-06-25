@@ -11,6 +11,11 @@ rails s
 
 Admin Login:
 
-```
-http://localhost:3000/admin/login
-```
+1) `rails s`
+2) Visit: `http://localhost:3000/admin/login`
+
+Rails DB (phpMyAdmin style clone):
+
+1) Fill out `application.yml` based on `application.yml.example`
+2) `rails s`
+3) Visit: `http://localhost:3000/rails/db`
