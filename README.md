@@ -3,9 +3,9 @@ An attempt at a very Wordpress-y experience in Ruby on Rails 4.
 
 ####Technologies
 
-• Rails 4
-• Camaleon
-• RailsDB
+* Rails 4
+* Camaleon
+* RailsDB
 
 ####Initial Setup:
 
@@ -19,10 +19,13 @@ rails s
 ####Admin Login:
 
 1) `rails s`
+
 2) Visit: `http://localhost:3000/admin/login`
 
 ####Rails DB (phpMyAdmin style clone):
 
 1) Fill out `application.yml` based on `application.yml.example`
+
 2) `rails s`
+
 3) Visit: `http://localhost:3000/rails/db`
