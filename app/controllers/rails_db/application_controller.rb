@@ -1,4 +1,5 @@
 class RailsDb::ApplicationController < ActionController::Base
+
   include CamaleonCms::SiteHelper
   include CamaleonCms::SessionHelper
   include CurrentUserHelper
