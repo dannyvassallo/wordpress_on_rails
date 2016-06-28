@@ -5,7 +5,7 @@ An attempt at a very Wordpress-y experience in Ruby on Rails 4.
 
 * Rails 4
 * Camaleon
-* RailsDB
+* RailsDB (Patched into admin dashboard)
 
 ####Initial Setup:
 
@@ -21,11 +21,3 @@ rails s
 1) `rails s`
 
 2) Visit: `http://localhost:3000/admin/login`
-
-####Rails DB (phpMyAdmin style clone):
-
-1) `rails s`
-
-2) Visit: `http://localhost:3000/admin/login`
-
-3) Visit: `http://localhost:3000/rails/db`
