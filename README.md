@@ -24,8 +24,8 @@ rails s
 
 ####Rails DB (phpMyAdmin style clone):
 
-1) Fill out `application.yml` based on `application.yml.example`
+1) `rails s`
 
-2) `rails s`
+2) Visit: `http://localhost:3000/admin/login`
 
 3) Visit: `http://localhost:3000/rails/db`
