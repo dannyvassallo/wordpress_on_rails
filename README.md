@@ -1,5 +1,8 @@
-#A New Portfolio Page
+#Wordpress on Rails Boilerplate
+
 An attempt at a very Wordpress-y experience in Ruby on Rails 4.
+Using CamaleonCMS as a CMS and Rails DB to emulate a PHPMyAdmin feel.
+The goal is to make deploying rails apps friendly for the client as well as the dev.
 
 ####Technologies
 
