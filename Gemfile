@@ -13,6 +13,7 @@ gem 'el_finder'
 gem 'rails_db'
 gem 'axlsx_rails'
 gem 'figaro'
+gem 'pry'
 
 group :production do
   gem 'pg'
