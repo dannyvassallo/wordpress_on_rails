@@ -12,15 +12,28 @@ The goal is to make deploying rails apps friendly for the client as well as the 
 
 ####Initial Setup:
 
+Make a copy of the boilerplate:
+
+```
+git clone https://github.com/dannyvassallo/wordpress_on_rails.git
+cd wordpress_on_rails
+```
+
+Rename the app (optional):
+
+```
+rails g rename:app_to PUT_THE_NAME_OF_YOUR_NEW_APP_HERE
+```
+
+Get rails setup and running:
+
 ```
 bundle install
-rails generate camaleon_cms:install
 rake db:migrate
 rails s
 ```
 
 ####Admin Login:
 
-1) `rails s`
-
-2) Visit: `http://localhost:3000/admin/login`
+`rails s`
+Visit In Browser: `http://localhost:3000/admin/login`

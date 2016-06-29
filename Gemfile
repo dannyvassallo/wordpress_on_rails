@@ -14,6 +14,7 @@ gem 'rails_db'
 gem 'axlsx_rails'
 gem 'figaro'
 gem 'pry'
+gem 'rename'
 
 group :production do
   gem 'pg'
