@@ -35,5 +35,24 @@ rails s
 
 ####Admin Login:
 
+After setup the inital creds are:
+
+```
+user: admin
+pass: admin
+```
+
+**PLEASE CHANGE THIS!**
+
+Every other time:
+
 `rails s`
-Visit In Browser: `http://localhost:3000/admin/login`
+
+**Visit In Browser:** `http://localhost:3000/admin/login`
+
+To use rails_db, simply click the link on the left hand side of the dashboard under "settings".
+You must login through camaleon's portal to access rails_db. This will be obvious if you logout and visit the route.
+
+**NOTE**
+
+DO NOT ALTER CAMALEON USER PROPERTIES FROM RAILS_DB, IT CAN BREAK YOUR SESSIONS INFORMATION. EDIT USERS FROM CAMALEON.
