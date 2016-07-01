@@ -15,6 +15,8 @@ gem 'axlsx_rails'
 gem 'figaro'
 gem 'pry'
 gem 'rename'
+gem 'materialize-sass'
+
 
 group :production do
   gem 'pg'
